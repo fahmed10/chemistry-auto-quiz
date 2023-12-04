@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Segoe UI", sans-serif;
+    padding: 1rem 2rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.btn {
+    margin: 4px 3px;
+}
+
+button.inline-button {
+    height: 1.55rem;
+    margin: 0 0.25rem;
+    padding: 0.5rem;
+    line-height: 0;
+}
+
+.card {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    max-width: 60rem;
+    margin-inline: auto;
+}
+
+input[type=checkbox] {
+    width: 0.95rem;
+    margin-top: 0.1rem;
+    accent-color: #198754;
+}
+
+.light-input {
+    border: 1px solid #c8c8c896;
+    border-radius: 0.25rem;
+    padding: 0 0.2rem;
+}
+
+.light-text {
+    color: gray;
+}
+
+.right-align {
+    margin-left: auto;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.max-w-course {
+    max-width: 10ch;
+}
+
+.alert {
+    padding: 0.6rem !important;
+}
+
+.katex {
+    font-size: 1.15em !important;
+    font-weight: 500 !important;
+}
